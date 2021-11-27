@@ -154,7 +154,7 @@ function playGame(){
     alert('Congrats! Player ' + namePlayer + ' has blackjack!');
   }
   else if(counterBot == 21){
-    alert('Player' + namePlayer + 'lost - ' + nameBot + 'has blackjack!');
+    alert('Player ' + namePlayer + 'lost - ' + nameBot + 'has blackjack!');
   }
   else if(counterPlayer > 21){
     alert('Game over - ' + nameBot + ' won');
